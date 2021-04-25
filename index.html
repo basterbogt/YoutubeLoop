@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube Loop</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="https://www.youtube.com/favicon.ico">
+</head>
+<body>
+    <form method="post">
+        <input placeholder="Start time in seconds" name="start" id="start" type="text"  />
+        <input placeholder="End time in seconds" name="end" id="end" type="text" />
+        <input placeholder="Video ID or URL" name="v" id="v" type="text" />
+        <input name="submit" type="submit" value="Go" />
+    </form>
+    <iframe id="player" frameborder="0" allowfullscreen></iframe>
+    <script src="url.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
